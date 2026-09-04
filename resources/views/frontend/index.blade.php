@@ -373,9 +373,8 @@
         transform: translateY(-3px);
     }
     /* Uniform Product Card Heights */
-    .single-product {
-        height: 100%;
-        display: flex;
+    
+        flex-direction: column;
         
     }
     .single-product .product-img {
@@ -409,9 +408,8 @@
     }
 
     /* Fix Card Heights and Image Contain */
-    .single-product {
-        height: 100%;
-        display: flex;
+    
+        flex-direction: column;
         
         justify-content: space-between;
         background: #fff;
@@ -528,7 +526,9 @@
         transform: scale(1.1);
         opacity: 1;
     }
-    .small-banner .single-banner .content {
+    
+          flex-direction: column !important;
+          justify-content: center !important;
         position: absolute;
         top: 0;
         left: 0;
@@ -569,17 +569,8 @@
         transform: translateY(-3px);
     }
     /* Fixing the Small Banner Content Alignment */
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: auto !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: auto !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: flex-end !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -628,17 +619,8 @@
         transform: scale(1.1);
         opacity: 0.5;
     }
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: 0 !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 100% !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: center !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -709,17 +691,8 @@
         pointer-events: none !important;
         display: block !important;
     }
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: 0 !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 100% !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: center !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -917,6 +890,59 @@
         background: #036b41 !important;
         color: #fff !important;
         transform: translateY(-3px) !important;
+    }
+    /* === EMERGENCY FIX FOR LAYOUT === */
+    /* 1. Fix Product Cards Layout */
+    .single-product {
+        display: flex !important;
+        flex-direction: column !important;
+        background: #fff !important;
+    }
+    .single-product .product-img {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        height: 300px !important; /* Force image container height */
+        padding: 20px !important;
+    }
+    .single-product .product-img img {
+        max-width: 100% !important;
+        max-height: 100% !important;
+        object-fit: contain !important;
+    }
+
+    /* 2. Fix Small Banners Layout (Office Chairs etc) */
+    .small-banner .single-banner .content {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        width: 100% !important;
+        left: 0 !important;
+        padding: 20px !important;
+    }
+    .small-banner .single-banner .content a {
+        display: inline-block !important; /* Prevent stretching */
+        width: auto !important;
+        text-align: center !important;
+        padding: 12px 30px !important;
+        border-radius: 4px !important;
+    }
+
+    /* 3. Fix Medium Banner Layout (Featured) */
+    .midium-banner .single-banner .content {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: center !important;
+    }
+    .midium-banner .single-banner .content a {
+        display: inline-block !important;
+        width: auto !important;
+        text-align: center !important;
+        padding: 12px 30px !important;
+        border-radius: 30px !important;
     }
 </style>
 
@@ -1202,9 +1228,8 @@
         transform: translateY(-3px);
     }
     /* Uniform Product Card Heights */
-    .single-product {
-        height: 100%;
-        display: flex;
+    
+        flex-direction: column;
         
     }
     .single-product .product-img {
@@ -1238,9 +1263,8 @@
     }
 
     /* Fix Card Heights and Image Contain */
-    .single-product {
-        height: 100%;
-        display: flex;
+    
+        flex-direction: column;
         
         justify-content: space-between;
         background: #fff;
@@ -1357,7 +1381,9 @@
         transform: scale(1.1);
         opacity: 1;
     }
-    .small-banner .single-banner .content {
+    
+          flex-direction: column !important;
+          justify-content: center !important;
         position: absolute;
         top: 0;
         left: 0;
@@ -1398,17 +1424,8 @@
         transform: translateY(-3px);
     }
     /* Fixing the Small Banner Content Alignment */
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: auto !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: auto !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: flex-end !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -1457,17 +1474,8 @@
         transform: scale(1.1);
         opacity: 0.5;
     }
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: 0 !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 100% !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: center !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -1538,17 +1546,8 @@
         pointer-events: none !important;
         display: block !important;
     }
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: 0 !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 100% !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: center !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -1746,6 +1745,59 @@
         background: #036b41 !important;
         color: #fff !important;
         transform: translateY(-3px) !important;
+    }
+    /* === EMERGENCY FIX FOR LAYOUT === */
+    /* 1. Fix Product Cards Layout */
+    .single-product {
+        display: flex !important;
+        flex-direction: column !important;
+        background: #fff !important;
+    }
+    .single-product .product-img {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        height: 300px !important; /* Force image container height */
+        padding: 20px !important;
+    }
+    .single-product .product-img img {
+        max-width: 100% !important;
+        max-height: 100% !important;
+        object-fit: contain !important;
+    }
+
+    /* 2. Fix Small Banners Layout (Office Chairs etc) */
+    .small-banner .single-banner .content {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        width: 100% !important;
+        left: 0 !important;
+        padding: 20px !important;
+    }
+    .small-banner .single-banner .content a {
+        display: inline-block !important; /* Prevent stretching */
+        width: auto !important;
+        text-align: center !important;
+        padding: 12px 30px !important;
+        border-radius: 4px !important;
+    }
+
+    /* 3. Fix Medium Banner Layout (Featured) */
+    .midium-banner .single-banner .content {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: center !important;
+    }
+    .midium-banner .single-banner .content a {
+        display: inline-block !important;
+        width: auto !important;
+        text-align: center !important;
+        padding: 12px 30px !important;
+        border-radius: 30px !important;
     }
 </style>
 
@@ -2059,7 +2111,7 @@
 
     /* Product Card Styling */
     .single-product {
-        background: #fff;
+        display: flex; flex-direction: column; background: #fff;
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0 5px 15px rgba(0,0,0,0.05);
@@ -2253,9 +2305,8 @@
         transform: translateY(-3px);
     }
     /* Uniform Product Card Heights */
-    .single-product {
-        height: 100%;
-        display: flex;
+    
+        flex-direction: column;
         
     }
     .single-product .product-img {
@@ -2289,9 +2340,8 @@
     }
 
     /* Fix Card Heights and Image Contain */
-    .single-product {
-        height: 100%;
-        display: flex;
+    
+        flex-direction: column;
         
         justify-content: space-between;
         background: #fff;
@@ -2408,7 +2458,9 @@
         transform: scale(1.1);
         opacity: 1;
     }
-    .small-banner .single-banner .content {
+    
+          flex-direction: column !important;
+          justify-content: center !important;
         position: absolute;
         top: 0;
         left: 0;
@@ -2449,17 +2501,8 @@
         transform: translateY(-3px);
     }
     /* Fixing the Small Banner Content Alignment */
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: auto !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: auto !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: flex-end !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -2508,17 +2551,8 @@
         transform: scale(1.1);
         opacity: 0.5;
     }
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: 0 !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 100% !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: center !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -2589,17 +2623,8 @@
         pointer-events: none !important;
         display: block !important;
     }
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: 0 !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 100% !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: center !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -2797,6 +2822,59 @@
         background: #036b41 !important;
         color: #fff !important;
         transform: translateY(-3px) !important;
+    }
+    /* === EMERGENCY FIX FOR LAYOUT === */
+    /* 1. Fix Product Cards Layout */
+    .single-product {
+        display: flex !important;
+        flex-direction: column !important;
+        background: #fff !important;
+    }
+    .single-product .product-img {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        height: 300px !important; /* Force image container height */
+        padding: 20px !important;
+    }
+    .single-product .product-img img {
+        max-width: 100% !important;
+        max-height: 100% !important;
+        object-fit: contain !important;
+    }
+
+    /* 2. Fix Small Banners Layout (Office Chairs etc) */
+    .small-banner .single-banner .content {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        width: 100% !important;
+        left: 0 !important;
+        padding: 20px !important;
+    }
+    .small-banner .single-banner .content a {
+        display: inline-block !important; /* Prevent stretching */
+        width: auto !important;
+        text-align: center !important;
+        padding: 12px 30px !important;
+        border-radius: 4px !important;
+    }
+
+    /* 3. Fix Medium Banner Layout (Featured) */
+    .midium-banner .single-banner .content {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: center !important;
+    }
+    .midium-banner .single-banner .content a {
+        display: inline-block !important;
+        width: auto !important;
+        text-align: center !important;
+        padding: 12px 30px !important;
+        border-radius: 30px !important;
     }
 </style>
 <div class="product-area section">
@@ -2997,9 +3075,8 @@
         box-shadow: 0 20px 40px rgba(3, 107, 65, 0.3) !important;
     }
     /* Uniform Product Card Heights */
-    .single-product {
-        height: 100%;
-        display: flex;
+    
+        flex-direction: column;
         
     }
     .single-product .product-img {
@@ -3033,9 +3110,8 @@
     }
 
     /* Fix Card Heights and Image Contain */
-    .single-product {
-        height: 100%;
-        display: flex;
+    
+        flex-direction: column;
         
         justify-content: space-between;
         background: #fff;
@@ -3152,7 +3228,9 @@
         transform: scale(1.1);
         opacity: 1;
     }
-    .small-banner .single-banner .content {
+    
+          flex-direction: column !important;
+          justify-content: center !important;
         position: absolute;
         top: 0;
         left: 0;
@@ -3193,17 +3271,8 @@
         transform: translateY(-3px);
     }
     /* Fixing the Small Banner Content Alignment */
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: auto !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: auto !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: flex-end !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -3252,17 +3321,8 @@
         transform: scale(1.1);
         opacity: 0.5;
     }
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: 0 !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 100% !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: center !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -3333,17 +3393,8 @@
         pointer-events: none !important;
         display: block !important;
     }
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: 0 !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 100% !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: center !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -3541,6 +3592,59 @@
         background: #036b41 !important;
         color: #fff !important;
         transform: translateY(-3px) !important;
+    }
+    /* === EMERGENCY FIX FOR LAYOUT === */
+    /* 1. Fix Product Cards Layout */
+    .single-product {
+        display: flex !important;
+        flex-direction: column !important;
+        background: #fff !important;
+    }
+    .single-product .product-img {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        height: 300px !important; /* Force image container height */
+        padding: 20px !important;
+    }
+    .single-product .product-img img {
+        max-width: 100% !important;
+        max-height: 100% !important;
+        object-fit: contain !important;
+    }
+
+    /* 2. Fix Small Banners Layout (Office Chairs etc) */
+    .small-banner .single-banner .content {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        width: 100% !important;
+        left: 0 !important;
+        padding: 20px !important;
+    }
+    .small-banner .single-banner .content a {
+        display: inline-block !important; /* Prevent stretching */
+        width: auto !important;
+        text-align: center !important;
+        padding: 12px 30px !important;
+        border-radius: 4px !important;
+    }
+
+    /* 3. Fix Medium Banner Layout (Featured) */
+    .midium-banner .single-banner .content {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: center !important;
+    }
+    .midium-banner .single-banner .content a {
+        display: inline-block !important;
+        width: auto !important;
+        text-align: center !important;
+        padding: 12px 30px !important;
+        border-radius: 30px !important;
     }
 </style>
 <!-- End Return Policy Area -->
@@ -4020,9 +4124,8 @@
         transform: translateY(-3px);
     }
     /* Uniform Product Card Heights */
-    .single-product {
-        height: 100%;
-        display: flex;
+    
+        flex-direction: column;
         
     }
     .single-product .product-img {
@@ -4056,9 +4159,8 @@
     }
 
     /* Fix Card Heights and Image Contain */
-    .single-product {
-        height: 100%;
-        display: flex;
+    
+        flex-direction: column;
         
         justify-content: space-between;
         background: #fff;
@@ -4175,7 +4277,9 @@
         transform: scale(1.1);
         opacity: 1;
     }
-    .small-banner .single-banner .content {
+    
+          flex-direction: column !important;
+          justify-content: center !important;
         position: absolute;
         top: 0;
         left: 0;
@@ -4216,17 +4320,8 @@
         transform: translateY(-3px);
     }
     /* Fixing the Small Banner Content Alignment */
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: auto !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: auto !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: flex-end !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -4275,17 +4370,8 @@
         transform: scale(1.1);
         opacity: 0.5;
     }
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: 0 !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 100% !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: center !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -4356,17 +4442,8 @@
         pointer-events: none !important;
         display: block !important;
     }
-    .small-banner .single-banner .content {
-        position: absolute !important;
-        top: 0 !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 100% !important;
-        transform: none !important;
-        display: flex !important;
-        
-        align-items: center !important;
+    
+        flex-direction: column !important; justify-content: center !important;
         justify-content: center !important;
         text-align: center !important;
         z-index: 2 !important;
@@ -4565,6 +4642,59 @@
         color: #fff !important;
         transform: translateY(-3px) !important;
     }
+    /* === EMERGENCY FIX FOR LAYOUT === */
+    /* 1. Fix Product Cards Layout */
+    .single-product {
+        display: flex !important;
+        flex-direction: column !important;
+        background: #fff !important;
+    }
+    .single-product .product-img {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        height: 300px !important; /* Force image container height */
+        padding: 20px !important;
+    }
+    .single-product .product-img img {
+        max-width: 100% !important;
+        max-height: 100% !important;
+        object-fit: contain !important;
+    }
+
+    /* 2. Fix Small Banners Layout (Office Chairs etc) */
+    .small-banner .single-banner .content {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        width: 100% !important;
+        left: 0 !important;
+        padding: 20px !important;
+    }
+    .small-banner .single-banner .content a {
+        display: inline-block !important; /* Prevent stretching */
+        width: auto !important;
+        text-align: center !important;
+        padding: 12px 30px !important;
+        border-radius: 4px !important;
+    }
+
+    /* 3. Fix Medium Banner Layout (Featured) */
+    .midium-banner .single-banner .content {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: center !important;
+    }
+    .midium-banner .single-banner .content a {
+        display: inline-block !important;
+        width: auto !important;
+        text-align: center !important;
+        padding: 12px 30px !important;
+        border-radius: 30px !important;
+    }
 </style>
 @endpush
 
@@ -4644,6 +4774,9 @@
 </script>
 
 @endpush
+
+
+
 
 
 
