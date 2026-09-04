@@ -1014,6 +1014,44 @@
             font-size: 12px !important;
         }
     }
+    /* === FIX FEATURED PRODUCTS CONTENT & BUTTONS === */
+    .single-product .product-content {
+        display: flex !important;
+        flex-direction: column !important; /* Stack Title and Price vertically */
+        justify-content: flex-start !important;
+        text-align: center !important;
+        padding: 15px 10px !important;
+    }
+    .single-product .product-content h3 {
+        margin-bottom: 8px !important;
+    }
+    .single-product .product-content h3 a {
+        display: block !important;
+        font-size: 14px !important;
+        line-height: 1.4 !important;
+        white-space: normal !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+    .single-product .product-content .product-price {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        gap: 8px !important;
+    }
+    .single-product .product-img .button-head {
+        display: flex !important;
+        flex-direction: row !important;
+        opacity: 1 !important; /* Make buttons visible on mobile */
+        visibility: visible !important;
+        bottom: 10px !important;
+        transform: translateY(0) !important;
+    }
+    .single-product .product-action {
+        flex-direction: row !important;
+    }
 </style>
 
 <!-- Slider Area -->
@@ -1938,6 +1976,44 @@
             padding: 8px 20px !important;
             font-size: 12px !important;
         }
+    }
+    /* === FIX FEATURED PRODUCTS CONTENT & BUTTONS === */
+    .single-product .product-content {
+        display: flex !important;
+        flex-direction: column !important; /* Stack Title and Price vertically */
+        justify-content: flex-start !important;
+        text-align: center !important;
+        padding: 15px 10px !important;
+    }
+    .single-product .product-content h3 {
+        margin-bottom: 8px !important;
+    }
+    .single-product .product-content h3 a {
+        display: block !important;
+        font-size: 14px !important;
+        line-height: 1.4 !important;
+        white-space: normal !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+    .single-product .product-content .product-price {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        gap: 8px !important;
+    }
+    .single-product .product-img .button-head {
+        display: flex !important;
+        flex-direction: row !important;
+        opacity: 1 !important; /* Make buttons visible on mobile */
+        visibility: visible !important;
+        bottom: 10px !important;
+        transform: translateY(0) !important;
+    }
+    .single-product .product-action {
+        flex-direction: row !important;
     }
 </style>
 
@@ -3086,6 +3162,44 @@
             font-size: 12px !important;
         }
     }
+    /* === FIX FEATURED PRODUCTS CONTENT & BUTTONS === */
+    .single-product .product-content {
+        display: flex !important;
+        flex-direction: column !important; /* Stack Title and Price vertically */
+        justify-content: flex-start !important;
+        text-align: center !important;
+        padding: 15px 10px !important;
+    }
+    .single-product .product-content h3 {
+        margin-bottom: 8px !important;
+    }
+    .single-product .product-content h3 a {
+        display: block !important;
+        font-size: 14px !important;
+        line-height: 1.4 !important;
+        white-space: normal !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+    .single-product .product-content .product-price {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        gap: 8px !important;
+    }
+    .single-product .product-img .button-head {
+        display: flex !important;
+        flex-direction: row !important;
+        opacity: 1 !important; /* Make buttons visible on mobile */
+        visibility: visible !important;
+        bottom: 10px !important;
+        transform: translateY(0) !important;
+    }
+    .single-product .product-action {
+        flex-direction: row !important;
+    }
 </style>
 <div class="product-area section">
     <div class="container">
@@ -3925,6 +4039,44 @@
             padding: 8px 20px !important;
             font-size: 12px !important;
         }
+    }
+    /* === FIX FEATURED PRODUCTS CONTENT & BUTTONS === */
+    .single-product .product-content {
+        display: flex !important;
+        flex-direction: column !important; /* Stack Title and Price vertically */
+        justify-content: flex-start !important;
+        text-align: center !important;
+        padding: 15px 10px !important;
+    }
+    .single-product .product-content h3 {
+        margin-bottom: 8px !important;
+    }
+    .single-product .product-content h3 a {
+        display: block !important;
+        font-size: 14px !important;
+        line-height: 1.4 !important;
+        white-space: normal !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+    .single-product .product-content .product-price {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        gap: 8px !important;
+    }
+    .single-product .product-img .button-head {
+        display: flex !important;
+        flex-direction: row !important;
+        opacity: 1 !important; /* Make buttons visible on mobile */
+        visibility: visible !important;
+        bottom: 10px !important;
+        transform: translateY(0) !important;
+    }
+    .single-product .product-action {
+        flex-direction: row !important;
     }
 </style>
 <!-- End Return Policy Area -->
@@ -5045,6 +5197,44 @@
             font-size: 12px !important;
         }
     }
+    /* === FIX FEATURED PRODUCTS CONTENT & BUTTONS === */
+    .single-product .product-content {
+        display: flex !important;
+        flex-direction: column !important; /* Stack Title and Price vertically */
+        justify-content: flex-start !important;
+        text-align: center !important;
+        padding: 15px 10px !important;
+    }
+    .single-product .product-content h3 {
+        margin-bottom: 8px !important;
+    }
+    .single-product .product-content h3 a {
+        display: block !important;
+        font-size: 14px !important;
+        line-height: 1.4 !important;
+        white-space: normal !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+    .single-product .product-content .product-price {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        gap: 8px !important;
+    }
+    .single-product .product-img .button-head {
+        display: flex !important;
+        flex-direction: row !important;
+        opacity: 1 !important; /* Make buttons visible on mobile */
+        visibility: visible !important;
+        bottom: 10px !important;
+        transform: translateY(0) !important;
+    }
+    .single-product .product-action {
+        flex-direction: row !important;
+    }
 </style>
 @endpush
 
@@ -5124,6 +5314,7 @@
 </script>
 
 @endpush
+
 
 
 
