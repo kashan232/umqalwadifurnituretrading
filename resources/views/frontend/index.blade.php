@@ -981,6 +981,39 @@
             font-size: 11px !important;
         }
     }
+    /* === FEATURED ITEMS RESPONSIVE FIX === */
+    @media (max-width: 768px) {
+        .midium-banner .single-banner {
+            height: auto !important; /* Allow it to grow if needed */
+            min-height: 250px !important;
+            padding-bottom: 20px !important;
+        }
+        .midium-banner .single-banner .content {
+            padding: 20px !important;
+            width: 100% !important;
+            left: 0 !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+        }
+        .midium-banner .single-banner .content p {
+            font-size: 11px !important;
+            padding: 4px 10px !important;
+            margin-bottom: 10px !important;
+        }
+        .midium-banner .single-banner .content h3 {
+            font-size: 20px !important;
+            line-height: 1.2 !important;
+            margin-bottom: 15px !important;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 3 !important; /* Limit title to 3 lines */
+            -webkit-box-orient: vertical !important;
+            overflow: hidden !important;
+        }
+        .midium-banner .single-banner .content a {
+            padding: 8px 20px !important;
+            font-size: 12px !important;
+        }
+    }
 </style>
 
 <!-- Slider Area -->
@@ -1871,6 +1904,39 @@
         }
         #Gslider .carousel-inner .carousel-caption p {
             font-size: 11px !important;
+        }
+    }
+    /* === FEATURED ITEMS RESPONSIVE FIX === */
+    @media (max-width: 768px) {
+        .midium-banner .single-banner {
+            height: auto !important; /* Allow it to grow if needed */
+            min-height: 250px !important;
+            padding-bottom: 20px !important;
+        }
+        .midium-banner .single-banner .content {
+            padding: 20px !important;
+            width: 100% !important;
+            left: 0 !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+        }
+        .midium-banner .single-banner .content p {
+            font-size: 11px !important;
+            padding: 4px 10px !important;
+            margin-bottom: 10px !important;
+        }
+        .midium-banner .single-banner .content h3 {
+            font-size: 20px !important;
+            line-height: 1.2 !important;
+            margin-bottom: 15px !important;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 3 !important; /* Limit title to 3 lines */
+            -webkit-box-orient: vertical !important;
+            overflow: hidden !important;
+        }
+        .midium-banner .single-banner .content a {
+            padding: 8px 20px !important;
+            font-size: 12px !important;
         }
     }
 </style>
@@ -2987,6 +3053,39 @@
             font-size: 11px !important;
         }
     }
+    /* === FEATURED ITEMS RESPONSIVE FIX === */
+    @media (max-width: 768px) {
+        .midium-banner .single-banner {
+            height: auto !important; /* Allow it to grow if needed */
+            min-height: 250px !important;
+            padding-bottom: 20px !important;
+        }
+        .midium-banner .single-banner .content {
+            padding: 20px !important;
+            width: 100% !important;
+            left: 0 !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+        }
+        .midium-banner .single-banner .content p {
+            font-size: 11px !important;
+            padding: 4px 10px !important;
+            margin-bottom: 10px !important;
+        }
+        .midium-banner .single-banner .content h3 {
+            font-size: 20px !important;
+            line-height: 1.2 !important;
+            margin-bottom: 15px !important;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 3 !important; /* Limit title to 3 lines */
+            -webkit-box-orient: vertical !important;
+            overflow: hidden !important;
+        }
+        .midium-banner .single-banner .content a {
+            padding: 8px 20px !important;
+            font-size: 12px !important;
+        }
+    }
 </style>
 <div class="product-area section">
     <div class="container">
@@ -3792,6 +3891,39 @@
         }
         #Gslider .carousel-inner .carousel-caption p {
             font-size: 11px !important;
+        }
+    }
+    /* === FEATURED ITEMS RESPONSIVE FIX === */
+    @media (max-width: 768px) {
+        .midium-banner .single-banner {
+            height: auto !important; /* Allow it to grow if needed */
+            min-height: 250px !important;
+            padding-bottom: 20px !important;
+        }
+        .midium-banner .single-banner .content {
+            padding: 20px !important;
+            width: 100% !important;
+            left: 0 !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+        }
+        .midium-banner .single-banner .content p {
+            font-size: 11px !important;
+            padding: 4px 10px !important;
+            margin-bottom: 10px !important;
+        }
+        .midium-banner .single-banner .content h3 {
+            font-size: 20px !important;
+            line-height: 1.2 !important;
+            margin-bottom: 15px !important;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 3 !important; /* Limit title to 3 lines */
+            -webkit-box-orient: vertical !important;
+            overflow: hidden !important;
+        }
+        .midium-banner .single-banner .content a {
+            padding: 8px 20px !important;
+            font-size: 12px !important;
         }
     }
 </style>
@@ -4880,6 +5012,39 @@
             font-size: 11px !important;
         }
     }
+    /* === FEATURED ITEMS RESPONSIVE FIX === */
+    @media (max-width: 768px) {
+        .midium-banner .single-banner {
+            height: auto !important; /* Allow it to grow if needed */
+            min-height: 250px !important;
+            padding-bottom: 20px !important;
+        }
+        .midium-banner .single-banner .content {
+            padding: 20px !important;
+            width: 100% !important;
+            left: 0 !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+        }
+        .midium-banner .single-banner .content p {
+            font-size: 11px !important;
+            padding: 4px 10px !important;
+            margin-bottom: 10px !important;
+        }
+        .midium-banner .single-banner .content h3 {
+            font-size: 20px !important;
+            line-height: 1.2 !important;
+            margin-bottom: 15px !important;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 3 !important; /* Limit title to 3 lines */
+            -webkit-box-orient: vertical !important;
+            overflow: hidden !important;
+        }
+        .midium-banner .single-banner .content a {
+            padding: 8px 20px !important;
+            font-size: 12px !important;
+        }
+    }
 </style>
 @endpush
 
@@ -4959,6 +5124,7 @@
 </script>
 
 @endpush
+
 
 
 
