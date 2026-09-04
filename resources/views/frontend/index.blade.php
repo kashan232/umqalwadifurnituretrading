@@ -944,6 +944,43 @@
         padding: 12px 30px !important;
         border-radius: 30px !important;
     }
+    /* === MOBILE RESPONSIVE FIXES FOR SLIDER === */
+    @media (max-width: 768px) {
+        #Gslider .carousel-inner img {
+            min-height: 250px !important;
+            object-fit: cover !important; /* Prevents stretching, crops instead to fit the height */
+        }
+        #Gslider .carousel-inner .carousel-caption {
+            padding: 10px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption h1 {
+            font-size: 20px !important;
+            margin-bottom: 10px !important;
+            line-height: 1.3 !important;
+            letter-spacing: 1px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption p {
+            font-size: 12px !important;
+            margin-bottom: 15px !important;
+            line-height: 1.4 !important;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 2 !important; /* Max 2 lines for description */
+            -webkit-box-orient: vertical !important;
+            overflow: hidden !important;
+        }
+        #Gslider .btn.ws-btn {
+            padding: 8px 20px !important;
+            font-size: 12px !important;
+        }
+    }
+    @media (max-width: 400px) {
+        #Gslider .carousel-inner .carousel-caption h1 {
+            font-size: 16px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption p {
+            font-size: 11px !important;
+        }
+    }
 </style>
 
 <!-- Slider Area -->
@@ -1798,6 +1835,43 @@
         text-align: center !important;
         padding: 12px 30px !important;
         border-radius: 30px !important;
+    }
+    /* === MOBILE RESPONSIVE FIXES FOR SLIDER === */
+    @media (max-width: 768px) {
+        #Gslider .carousel-inner img {
+            min-height: 250px !important;
+            object-fit: cover !important; /* Prevents stretching, crops instead to fit the height */
+        }
+        #Gslider .carousel-inner .carousel-caption {
+            padding: 10px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption h1 {
+            font-size: 20px !important;
+            margin-bottom: 10px !important;
+            line-height: 1.3 !important;
+            letter-spacing: 1px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption p {
+            font-size: 12px !important;
+            margin-bottom: 15px !important;
+            line-height: 1.4 !important;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 2 !important; /* Max 2 lines for description */
+            -webkit-box-orient: vertical !important;
+            overflow: hidden !important;
+        }
+        #Gslider .btn.ws-btn {
+            padding: 8px 20px !important;
+            font-size: 12px !important;
+        }
+    }
+    @media (max-width: 400px) {
+        #Gslider .carousel-inner .carousel-caption h1 {
+            font-size: 16px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption p {
+            font-size: 11px !important;
+        }
     }
 </style>
 
@@ -2876,6 +2950,43 @@
         padding: 12px 30px !important;
         border-radius: 30px !important;
     }
+    /* === MOBILE RESPONSIVE FIXES FOR SLIDER === */
+    @media (max-width: 768px) {
+        #Gslider .carousel-inner img {
+            min-height: 250px !important;
+            object-fit: cover !important; /* Prevents stretching, crops instead to fit the height */
+        }
+        #Gslider .carousel-inner .carousel-caption {
+            padding: 10px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption h1 {
+            font-size: 20px !important;
+            margin-bottom: 10px !important;
+            line-height: 1.3 !important;
+            letter-spacing: 1px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption p {
+            font-size: 12px !important;
+            margin-bottom: 15px !important;
+            line-height: 1.4 !important;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 2 !important; /* Max 2 lines for description */
+            -webkit-box-orient: vertical !important;
+            overflow: hidden !important;
+        }
+        #Gslider .btn.ws-btn {
+            padding: 8px 20px !important;
+            font-size: 12px !important;
+        }
+    }
+    @media (max-width: 400px) {
+        #Gslider .carousel-inner .carousel-caption h1 {
+            font-size: 16px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption p {
+            font-size: 11px !important;
+        }
+    }
 </style>
 <div class="product-area section">
     <div class="container">
@@ -3645,6 +3756,43 @@
         text-align: center !important;
         padding: 12px 30px !important;
         border-radius: 30px !important;
+    }
+    /* === MOBILE RESPONSIVE FIXES FOR SLIDER === */
+    @media (max-width: 768px) {
+        #Gslider .carousel-inner img {
+            min-height: 250px !important;
+            object-fit: cover !important; /* Prevents stretching, crops instead to fit the height */
+        }
+        #Gslider .carousel-inner .carousel-caption {
+            padding: 10px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption h1 {
+            font-size: 20px !important;
+            margin-bottom: 10px !important;
+            line-height: 1.3 !important;
+            letter-spacing: 1px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption p {
+            font-size: 12px !important;
+            margin-bottom: 15px !important;
+            line-height: 1.4 !important;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 2 !important; /* Max 2 lines for description */
+            -webkit-box-orient: vertical !important;
+            overflow: hidden !important;
+        }
+        #Gslider .btn.ws-btn {
+            padding: 8px 20px !important;
+            font-size: 12px !important;
+        }
+    }
+    @media (max-width: 400px) {
+        #Gslider .carousel-inner .carousel-caption h1 {
+            font-size: 16px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption p {
+            font-size: 11px !important;
+        }
     }
 </style>
 <!-- End Return Policy Area -->
@@ -4695,6 +4843,43 @@
         padding: 12px 30px !important;
         border-radius: 30px !important;
     }
+    /* === MOBILE RESPONSIVE FIXES FOR SLIDER === */
+    @media (max-width: 768px) {
+        #Gslider .carousel-inner img {
+            min-height: 250px !important;
+            object-fit: cover !important; /* Prevents stretching, crops instead to fit the height */
+        }
+        #Gslider .carousel-inner .carousel-caption {
+            padding: 10px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption h1 {
+            font-size: 20px !important;
+            margin-bottom: 10px !important;
+            line-height: 1.3 !important;
+            letter-spacing: 1px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption p {
+            font-size: 12px !important;
+            margin-bottom: 15px !important;
+            line-height: 1.4 !important;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 2 !important; /* Max 2 lines for description */
+            -webkit-box-orient: vertical !important;
+            overflow: hidden !important;
+        }
+        #Gslider .btn.ws-btn {
+            padding: 8px 20px !important;
+            font-size: 12px !important;
+        }
+    }
+    @media (max-width: 400px) {
+        #Gslider .carousel-inner .carousel-caption h1 {
+            font-size: 16px !important;
+        }
+        #Gslider .carousel-inner .carousel-caption p {
+            font-size: 11px !important;
+        }
+    }
 </style>
 @endpush
 
@@ -4774,6 +4959,7 @@
 </script>
 
 @endpush
+
 
 
 
